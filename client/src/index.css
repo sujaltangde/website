@@ -22,6 +22,11 @@
   -webkit-text-fill-color: transparent;
 }
 
+span{
+  font-size: 8rem;
+  color: #ffffff;
+}
+
 .center-container {
   min-height: 100vh;
   display: flex;
@@ -31,6 +36,6 @@
 }
 
 .text-9xl {
-  font-size: 9rem;
+  font-size: 8rem;
   text-align: center;
 }

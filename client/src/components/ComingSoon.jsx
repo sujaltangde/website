@@ -1,10 +1,11 @@
-import React from 'react';
-
+import { Fragment } from "react";
 
 export const ComingSoon = () => {
   return (
-    <div className='center-container'>
-      <p className='gradient-text py-4 text-9xl'>Coming Soon</p>
-    </div>
+    <Fragment>
+      <main className="center-container">
+        <span>Coming</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p className="gradient-text py-4 text-9xl">Soon</p>
+      </main>
+    </Fragment>
   );
 };

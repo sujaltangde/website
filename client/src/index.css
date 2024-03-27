@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: 'mona-sans';
+    src: url('/client/public/assets/MonaSans-Bold.ttf') format('truetype');
+    /* You may include additional font formats (e.g., woff, woff2) for better browser support */
+  }
+
+
+*{
+    font-family: 'mona-sans', sans-serif;
+    font-weight: 600;
+}
+
+
+
+.gradient-text {
+  background: linear-gradient(84deg, rgba(161,248,208,1) 8%, rgba(102,175,253,1) 51%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.center-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #010e1d;
+}
+
+.text-9xl {
+  font-size: 9rem;
+  text-align: center;
+}

@@ -1,6 +1,7 @@
 import './App.css'
 import { Route, Routes } from "react-router-dom";
 import { Home } from './pages/Home';
+import { ComingSoon } from './components/ComingSoon';
 
 function App() {
 
@@ -10,9 +11,15 @@ function App() {
 
 
       <Routes>
-        <Route path="/" element={<Home />} />
+        {/* <Route path="/" element={<Home />} /> */}
 
       </Routes>
+
+
+
+  <ComingSoon/>
+
+
 
 
     </>

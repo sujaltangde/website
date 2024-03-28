@@ -23,7 +23,7 @@
 }
 
 span{
-  font-size: 8rem;
+  /* font-size: 8rem; */
   color: #ffffff;
 }
 
@@ -36,6 +36,6 @@ span{
 }
 
 .text-9xl {
-  font-size: 8rem;
+  /* font-size: 8rem; */
   text-align: center;
 }

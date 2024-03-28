@@ -12,6 +12,7 @@
 *{
     font-family: 'mona-sans', sans-serif;
     font-weight: 600;
+    
 }
 
 
@@ -38,4 +39,36 @@ span{
 .text-9xl {
   /* font-size: 8rem; */
   text-align: center;
+}
+
+
+
+.navBg{
+  /* background: rgb(68,68,68); */
+  background: #131e2b;
+  background: linear-gradient(96deg, rgb(24, 36, 53) 0%, rgba(19,30,43,1) 33%); 
+}
+
+
+.navLinkHover{
+  color: linear-gradient(86deg, rgba(91,232,255,1) 0%, rgba(1,99,255,1) 47%);
+} 
+.navLink {  
+  
+color: white;
+}
+
+.navLink:hover{
+  background: linear-gradient(86deg, rgba(91, 232, 255, 1) 0%, rgb(37, 121, 255) 47%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.btn-bg{
+  background-color: #2E4751;
+  /* border: 2px solid; */
+  /* border-image: linear-gradient(35deg, rgba(162, 250, 207, 1) 0%, rgba(1, 59, 153, 1) 56%);
+  border-image-slice: 1;
+  border-radius: 20px; */
 }

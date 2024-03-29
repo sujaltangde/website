@@ -1,31 +1,22 @@
-import './App.css'
+import "./App.css";
 import { Route, Routes } from "react-router-dom";
-import { Home } from './pages/Home';
-import { ComingSoon } from './components/ComingSoon';
-import { Navbar } from './components/Navbar';
+import { Home } from "./pages/Home";
+import { ComingSoon } from "./components/ComingSoon";
+import { Navbar } from "./components/Navbar";
 
 function App() {
-
-
   return (
     <>
-
-    <Navbar/>
+      <Navbar />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-
+        <Route path="/" element={<ComingSoon />} />
+        <Route path="/home" element={<Home />} />
       </Routes>
 
-
-
-  {/* <ComingSoon/> */}
-
-
-
-
+      {/* <ComingSoon/> */}
     </>
-  )
+  );
 }
 
-export default App
+export default App;

@@ -92,10 +92,18 @@
   .about-paragraph {
     width: 100%; 
   }
+
+  .img-about{
+    margin-top: -4rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
   .about-paragraph p {
     font-size: 1rem;
+  }
+
+  .title-about{
+    margin-top: 2.6rem;
   }
 }

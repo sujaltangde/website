@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.benefit-container{
+    height: auto;
+}
+
+.heading-benefit {
+    text-align: center;
+    font-family: 'Mona Sans';
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: #ffffff;
+    position: relative;
+    
+}
+
+.heading-benefit::after {
+    content: '';
+    position: absolute;
+    left: 50%; 
+    bottom: -5px; 
+    transform: translateX(-50%); 
+    width: 10%; 
+    height: 3px;
+    background: linear-gradient(
+        84deg,
+        rgba(161, 248, 208, 1) 8%,
+        rgba(102, 175, 253, 1) 51%
+      );
+}
+
+

@@ -10,9 +10,9 @@
   font-size: 1.6rem;
   text-align: center;
   color: #ffffff;
-  position: absolute;
+  position: relative;
   margin-top: 2rem;
-  top: 110%;
+  top: 11%;
   font-weight: bold;
 }
 
@@ -71,8 +71,8 @@
   text-align: justify; 
   max-width: 90%; 
   font-size: 1.3rem;
-  font-family: 'mona-sans-regular';
-  font-weight: 500;
+  /* font-family: 'mona-sans-regular';
+  font-weight: 500; */
   color: #ffffff;
 }
 
@@ -80,30 +80,22 @@
   .title-about {
     font-size: 1.2rem;
   }
-  
+
   .content-about {
     width: 90%; 
     margin: 6rem auto 0; 
     height: auto; 
     flex-direction: column;
   }
-  
+
   .img-about,
   .about-paragraph {
     width: 100%; 
-  }
-
-  .img-about{
-    margin-top: -4rem;
   }
 }
 
 @media screen and (max-width: 500px) {
   .about-paragraph p {
     font-size: 1rem;
-  }
-
-  .title-about{
-    margin-top: 2.6rem;
   }
 }

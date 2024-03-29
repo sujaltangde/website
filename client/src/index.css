@@ -4,25 +4,7 @@
 @tailwind utilities;
 
 
-::-webkit-scrollbar {
-  width: 10px; /* width of the scrollbar */
-}
 
-/* Track (background) */
-::-webkit-scrollbar-track {
-  background: transparent; /* make it transparent */
-}
-
-/* Handle (thumb) */
-::-webkit-scrollbar-thumb {
-  background: rgba(0, 0, 0, 0.3); /* color of the scrollbar handle */
-  border-radius: 5px; /* round corners */
-}
-
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
-  background: rgba(0, 0, 0, 0.5); /* darker color on hover */
-}
 
 @font-face {
   font-family: 'mona-sans-light';

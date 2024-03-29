@@ -1,4 +1,4 @@
-import CountUp from 'react-countup'
+import CountUp from 'react-countup';
 
 
 export const Projects = () => {

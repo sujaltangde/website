@@ -1,6 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+::-webkit-scrollbar {
+  width: 10px; /* width of the scrollbar */
+}
+
+/* Track (background) */
+::-webkit-scrollbar-track {
+  background: transparent; /* make it transparent */
+}
+
+/* Handle (thumb) */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.3); /* color of the scrollbar handle */
+  border-radius: 5px; /* round corners */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.5); /* darker color on hover */
+}
 
 @font-face {
   font-family: 'mona-sans-light';
@@ -35,26 +57,32 @@
 
 .font-mona-sans-light {
   font-family: 'mona-sans-light';
+   /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-regular {
   font-family: 'mona-sans-regular';
+   /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-medium {
   font-family: 'mona-sans-medium';
+   /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-semibold {
   font-family: 'mona-sans-semibold';
+   /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-bold {
   font-family: 'mona-sans-bold';
+   /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-ExtraBold {
   font-family: 'mona-sans-extrabold';
+   /* font-family: "Roboto"; */
 }
 
 
@@ -119,11 +147,24 @@ span {
 
 .btn-bg {
   background-color: #2E4751;
-  /* border: 2px solid; */
-  /* border-image: linear-gradient(35deg, rgba(162, 250, 207, 1) 0%, rgba(1, 59, 153, 1) 56%);
-  border-image-slice: 1;
-  border-radius: 20px; */
+ 
 }
+
+.border-btn {
+ 
+  position: relative;
+  background: linear-gradient(186deg, rgba(162,250,207,1) 8%, rgba(156,242,205,1) 19%, rgba(40,111,226,1) 98%);  
+ /* padding: 5px 2px 6px 2px; */
+ 
+}
+.border-btn2 {
+ 
+  position: relative;
+  background: linear-gradient(186deg, rgba(162,250,207,1) 8%, rgba(156,242,205,1) 19%, rgba(40,111,226,1) 98%);  
+ padding: 2px;
+ 
+}
+
 .btn-bg2 {
   background-color: #011F4A;
   /* border: 2px solid; */
@@ -131,3 +172,9 @@ span {
   border-image-slice: 1;
   border-radius: 20px; */
 }
+
+
+.textSpan{
+  color: #A2FACF;
+}
+

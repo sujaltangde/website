@@ -1,5 +1,6 @@
 import React from 'react'
 import { Hero } from '../components/Home/Hero'
+import { Projects } from '../components/Home/Projects'
 
 export const Home = () => {
   return (
@@ -9,6 +10,8 @@ export const Home = () => {
 
 
         <Hero/>
+
+        <Projects/>
 
          
 

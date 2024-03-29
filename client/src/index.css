@@ -36,6 +36,11 @@
   src: url('./assets/fonts/MonaSans-ExtraBold.otf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Mona Sans';
+  src: url('./assets/fonts/Mona-Sans.ttf');
+}
+
 
 .font-mona-sans-light {
   font-family: 'mona-sans-light';

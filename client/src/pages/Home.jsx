@@ -3,6 +3,7 @@ import Hero from "../components/Home/Hero";
 import Projects from "../components/Home/Projects";
 import About from "../components/Home/About";
 import Benefits from "../components/Home/Benefits";
+import CommunityPartners from "../components/Home/CommunityPartners"
 
 const Home = React.memo(() => {
   return (
@@ -11,6 +12,7 @@ const Home = React.memo(() => {
       <About />
       <Projects />
       <Benefits />
+      <CommunityPartners />
     </div>
   );
 });

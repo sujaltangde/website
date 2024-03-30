@@ -5,9 +5,6 @@
 
 
 
-body {
-  cursor: pointer;
-}
 
 @font-face {
   font-family: 'mona-sans-light';
@@ -170,4 +167,49 @@ span {
 
 .miniBoxBg {
   background-color: #1C2734;
+}
+
+
+.headingT {
+  text-align: center;
+  font-family: 'Mona Sans';
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffffff;
+  position: relative;
+  
+}
+
+.headingT::after {
+  content: '';
+  position: absolute;
+  left: 50%; 
+  bottom: -5px; 
+  transform: translateX(-50%); 
+  width: 80%; 
+  height: 3px;
+  background: linear-gradient(
+      84deg,
+      rgba(161, 248, 208, 1) 8%,
+      rgba(102, 175, 253, 1) 51%
+    );
+}
+
+
+.parternersContent{
+  border: 2px solid white;
+
+
+  height: 30rem;
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(2, 19, 24, 0.587) 200%
+  );
+  /* box-shadow: 0 -8px 32px 0 rgba(2, 2, 2, 0.18); */
+  border-radius: 25px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  /* backdrop-filter: blur(10px); */
+  display: flex;
+  overflow: hidden;
 }

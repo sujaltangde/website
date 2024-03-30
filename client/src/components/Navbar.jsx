@@ -11,7 +11,7 @@ const Navbar = React.memo(() => {
         <div>
           <img src="/assets/navLogo.svg"
             className='w-36 md:w-40'
-            alt="Logo"
+            alt="navLogo"
             loading="lazy" />
         </div>
         <div>

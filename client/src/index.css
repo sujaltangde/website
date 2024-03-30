@@ -5,7 +5,7 @@
 
 
 
-body{
+body {
   cursor: pointer;
 }
 
@@ -47,38 +47,38 @@ body{
 
 .font-mona-sans-light {
   font-family: 'mona-sans-light';
-   /* font-family: "Roboto"; */
+  /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-regular {
   font-family: 'mona-sans-regular';
-   /* font-family: "Roboto"; */
+  /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-medium {
   font-family: 'mona-sans-medium';
-   /* font-family: "Roboto"; */
+  /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-semibold {
   font-family: 'mona-sans-semibold';
-   /* font-family: "Roboto"; */
+  /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-bold {
   font-family: 'mona-sans-bold';
-   /* font-family: "Roboto"; */
+  /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-ExtraBold {
   font-family: 'mona-sans-extrabold';
-   /* font-family: "Roboto"; */
+  /* font-family: "Roboto"; */
 }
 
 
 
 
-body{
+body {
   background-color: #010E1D;
 }
 
@@ -136,22 +136,23 @@ span {
 
 .btn-bg {
   background-color: #2E4751;
- 
+
 }
 
 .border-btn {
- 
+
   position: relative;
-  background: linear-gradient(186deg, rgba(162,250,207,1) 8%, rgba(156,242,205,1) 19%, rgba(40,111,226,1) 98%);  
- /* padding: 5px 2px 6px 2px; */
- 
+  background: linear-gradient(186deg, rgba(162, 250, 207, 1) 8%, rgba(156, 242, 205, 1) 19%, rgba(40, 111, 226, 1) 98%);
+  /* padding: 5px 2px 6px 2px; */
+
 }
+
 .border-btn2 {
- 
+
   position: relative;
-  background: linear-gradient(186deg, rgba(162,250,207,1) 8%, rgba(156,242,205,1) 19%, rgba(40,111,226,1) 98%);  
- padding: 2px;
- 
+  background: linear-gradient(186deg, rgba(162, 250, 207, 1) 8%, rgba(156, 242, 205, 1) 19%, rgba(40, 111, 226, 1) 98%);
+  padding: 2px;
+
 }
 
 .btn-bg2 {
@@ -163,10 +164,10 @@ span {
 }
 
 
-.textSpan{
+.textSpan {
   color: #A2FACF;
 }
 
-.miniBoxBg{
+.miniBoxBg {
   background-color: #1C2734;
 }

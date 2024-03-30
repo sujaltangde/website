@@ -1,14 +1,14 @@
-import { Fragment } from 'react';
+import React, { Fragment } from 'react';
 import "../../styles/About.css";
 
-const About = () => {
+const About = React.memo(() => {
   return (
     <Fragment>
       <main className="about-container">
         <h1 className='title-about'>About Us</h1>
         <section className='content-about'>
           <div className="img-about">
-            <img src="/about-image.png" alt="" />
+            <img src="/about-image.png" loading="lazy" alt="about-image" />
           </div>
           <div className="about-paragraph font-mona-sans-semibold">
             <p>
@@ -18,7 +18,7 @@ const About = () => {
         </section>
       </main>
     </Fragment>
-  )
-}
+  );
+});
 
-export default About
+export default About;

@@ -11,4 +11,6 @@ const Benefits = React.memo(() => {
     );
 });
 
+Benefits.displayName = "Benefits";
+
 export default Benefits;

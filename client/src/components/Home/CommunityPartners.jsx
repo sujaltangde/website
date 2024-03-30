@@ -9,7 +9,7 @@ const CommunityPartners = React.memo(() => {
                             <p className='headingT'>Community Partners</p>
                         </div>
                         <div className='parternersContent w-11/12 md:w-10/12 mb-14 mt-14'>
-
+                            
                         </div>
 
             </div>

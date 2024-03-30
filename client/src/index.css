@@ -9,37 +9,44 @@
 
 @font-face {
   font-family: 'mona-sans-light';
-  src: url('./assets/fonts/MonaSans-Light.woff2') ;
+  src: url('./assets/fonts/MonaSans-Light.woff2') format('woff2 supports variations'),
+    url('./assets/fonts/MonaSans-Light.woff2') format('woff2-variations');
 }
 
 @font-face {
   font-family: 'mona-sans-regular';
-  src: url('./assets/fonts/MonaSans-Regular.woff2') ;
+  src: url('./assets/fonts/MonaSans-Regular.woff2') format('woff2 supports variations'),
+    url('./assets/fonts/MonaSans-Regular.woff2') format('woff2-variations');
 }
 
 @font-face {
   font-family: 'mona-sans-medium';
-  src: url('./assets/fonts/MonaSans-Medium.woff2') ;
+  src: url('./assets/fonts/MonaSans-Medium.woff2') format('woff2 supports variations'),
+  url('./assets/fonts/MonaSans-Medium.woff2') format('woff2-variations');
 }
 
 @font-face {
   font-family: 'mona-sans-semibold';
-  src: url('./assets/fonts/MonaSans-SemiBold.woff2') ;
+  src: url('./assets/fonts/MonaSans-SemiBold.woff2') format('woff2 supports variations'),
+  url('./assets/fonts/MonaSans-SemiBold.woff2') format('woff2-variations');
 }
 
 @font-face {
   font-family: 'mona-sans-bold';
-  src: url('./assets/fonts/MonaSans-Bold.woff2') ;
+  src: url('./assets/fonts/MonaSans-Bold.woff2') format('woff2 supports variations'),
+  url('./assets/fonts/MonaSans-Bold.woff2') format('woff2-variations');
 }
 
 @font-face {
   font-family: 'mona-sans-extrabold';
-  src: url('./assets/fonts/MonaSans-ExtraBold.woff2') ;
+  src: url('./assets/fonts/MonaSans-ExtraBold.woff2') format('woff2 supports variations'),
+  url('./assets/fonts/MonaSans-ExtraBold.woff2') format('woff2-variations');
 }
 
 @font-face {
   font-family: 'Mona Sans';
-  src: url('./assets/fonts/MonaSans-Regular.woff2') ;
+  src: url('./assets/fonts/MonaSans-Regular.woff2') format('woff2 supports variations'),
+  url('./assets/fonts/MonaSans-Regular.woff2') format('woff2-variations');
 }
 
 

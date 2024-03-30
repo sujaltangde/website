@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { HiMenu, HiX } from "react-icons/hi";
 
-export const Navbar = () => {
+const Navbar = React.memo(() => {
   const [toggle, setToggle] = useState(false);
 
   return (
@@ -48,4 +48,6 @@ export const Navbar = () => {
       </div>
     </>
   );
-};
+});
+
+export default Navbar;

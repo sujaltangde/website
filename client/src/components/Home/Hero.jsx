@@ -1,8 +1,7 @@
 import React from 'react';
 
-export const Hero = () => {
+const Hero = React.memo(() => {
   return (
-
     <main className='flex flex-col gap-12 md:gap-24 md:px-24 px-4 pt-28 pb-40'>
       <article className='flex flex-col items-start'>
         <h1 className='flex font-extrabold items-center gap-4 md:gap-8 font-mona-sans-bold text-5xl md:text-9xl'>
@@ -17,5 +16,7 @@ export const Hero = () => {
         </div>
       </section>
     </main>
-  )
-}
+  );
+});
+
+export default Hero;

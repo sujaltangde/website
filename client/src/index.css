@@ -5,6 +5,9 @@
 
 
 
+body{
+  cursor: pointer;
+}
 
 @font-face {
   font-family: 'mona-sans-light';
@@ -164,3 +167,6 @@ span {
   color: #A2FACF;
 }
 
+.miniBoxBg{
+  background-color: #1C2734;
+}

@@ -9,37 +9,37 @@
 
 @font-face {
   font-family: 'mona-sans-light';
-  src: url('./assets/fonts/MonaSans-Light.otf') ;
+  src: url('./assets/fonts/MonaSans-Light.woff2') ;
 }
 
 @font-face {
   font-family: 'mona-sans-regular';
-  src: url('./assets/fonts/MonaSans-Regular.otf') ;
+  src: url('./assets/fonts/MonaSans-Regular.woff2') ;
 }
 
 @font-face {
   font-family: 'mona-sans-medium';
-  src: url('./assets/fonts/MonaSans-Medium.otf') ;
+  src: url('./assets/fonts/MonaSans-Medium.woff2') ;
 }
 
 @font-face {
   font-family: 'mona-sans-semibold';
-  src: url('./assets/fonts/MonaSans-SemiBold.otf') ;
+  src: url('./assets/fonts/MonaSans-SemiBold.woff2') ;
 }
 
 @font-face {
   font-family: 'mona-sans-bold';
-  src: url('./assets/fonts/MonaSans-Bold.otf') ;
+  src: url('./assets/fonts/MonaSans-Bold.woff2') ;
 }
 
 @font-face {
   font-family: 'mona-sans-extrabold';
-  src: url('./assets/fonts/MonaSans-ExtraBold.otf') ;
+  src: url('./assets/fonts/MonaSans-ExtraBold.woff2') ;
 }
 
 @font-face {
   font-family: 'Mona Sans';
-  src: url('./assets/fonts/Mona-Sans.ttf') ;
+  src: url('./assets/fonts/MonaSans-Regular.woff2') ;
 }
 
 

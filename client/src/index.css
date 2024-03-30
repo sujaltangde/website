@@ -1,81 +1,79 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/mona-sans');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 
 
-
 @font-face {
   font-family: 'mona-sans-light';
-  src: url('./assets/fonts/MonaSans-Light.otf') format('truetype');
+  src: url('./assets/fonts/MonaSans-Light.otf') ;
 }
 
 @font-face {
   font-family: 'mona-sans-regular';
-  src: url('./assets/fonts/MonaSans-Regular.otf') format('truetype');
+  src: url('./assets/fonts/MonaSans-Regular.otf') ;
 }
 
 @font-face {
   font-family: 'mona-sans-medium';
-  src: url('./assets/fonts/MonaSans-Medium.otf') format('truetype');
+  src: url('./assets/fonts/MonaSans-Medium.otf') ;
 }
 
 @font-face {
   font-family: 'mona-sans-semibold';
-  src: url('./assets/fonts/MonaSans-SemiBold.otf') format('truetype');
+  src: url('./assets/fonts/MonaSans-SemiBold.otf') ;
 }
 
 @font-face {
   font-family: 'mona-sans-bold';
-  src: url('./assets/fonts/MonaSans-Bold.otf') format('truetype');
+  src: url('./assets/fonts/MonaSans-Bold.otf') ;
 }
 
 @font-face {
   font-family: 'mona-sans-extrabold';
-  src: url('./assets/fonts/MonaSans-ExtraBold.otf') format('truetype');
+  src: url('./assets/fonts/MonaSans-ExtraBold.otf') ;
 }
 
 @font-face {
   font-family: 'Mona Sans';
-  src: url('./assets/fonts/Mona-Sans.ttf');
+  src: url('./assets/fonts/Mona-Sans.ttf') ;
 }
 
 
-.font-mona-sans-light {
+
+
+ .font-mona-sans-light {
   font-family: 'mona-sans-light';
-  /* font-family: "Roboto"; */
 }
+
 
 .font-mona-sans-regular {
   font-family: 'mona-sans-regular';
-  /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-medium {
   font-family: 'mona-sans-medium';
-  /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-semibold {
   font-family: 'mona-sans-semibold';
-  /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-bold {
   font-family: 'mona-sans-bold';
-  /* font-family: "Roboto"; */
 }
 
 .font-mona-sans-ExtraBold {
   font-family: 'mona-sans-extrabold';
-  /* font-family: "Roboto"; */
-}
-
+} 
 
 
 
 body {
+
   background-color: #010E1D;
 }
 
@@ -177,35 +175,31 @@ span {
   font-size: 1.5rem;
   color: #ffffff;
   position: relative;
-  
+
 }
 
 .headingT::after {
   content: '';
   position: absolute;
-  left: 50%; 
-  bottom: -5px; 
-  transform: translateX(-50%); 
-  width: 80%; 
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  width: 80%;
   height: 3px;
-  background: linear-gradient(
-      84deg,
+  background: linear-gradient(84deg,
       rgba(161, 248, 208, 1) 8%,
-      rgba(102, 175, 253, 1) 51%
-    );
+      rgba(102, 175, 253, 1) 51%);
 }
 
 
-.parternersContent{
+.parternersContent {
   border: 2px solid white;
 
 
   height: 30rem;
-  background: linear-gradient(
-    135deg,
-    rgba(255, 255, 255, 0.1) 0%,
-    rgba(2, 19, 24, 0.587) 200%
-  );
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(2, 19, 24, 0.587) 200%);
   /* box-shadow: 0 -8px 32px 0 rgba(2, 2, 2, 0.18); */
   border-radius: 25px;
   border: 1px solid rgba(255, 255, 255, 0.18);

@@ -7,11 +7,11 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <>
-      {/* <Navbar /> */}
+      <Navbar />
 
       <Routes>
-        <Route path="/" element={<ComingSoon />} />
-        <Route path="/home" element={<Home />} />
+        <Route path="/cs" element={<ComingSoon />} />
+        <Route path="/" element={<Home />} />
       </Routes>
 
       {/* <ComingSoon/> */}

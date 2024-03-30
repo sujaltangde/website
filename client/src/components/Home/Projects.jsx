@@ -56,8 +56,7 @@ const Projects = React.memo(() => {
       </div>
 
       <div className='flex flex-col md:gap-10 gap-5'>
-        <FastMarquee direction="left" speed={50} continuous className='grid ' >
-          <div className='miniBoxBg md:w-24 md:h-24 w-14 h-14 md:mx-5 mx-3 rounded-md'></div>
+        <FastMarquee direction="left" speed={50} loop={0}  autoFill continuous className='grid ' >
           <div className='miniBoxBg md:w-24 md:h-24 w-14 h-14 md:mx-5 mx-3 rounded-md'></div>
           <div className='miniBoxBg md:w-24 md:h-24 w-14 h-14 md:mx-5 mx-3 rounded-md'></div>
           <div className='miniBoxBg md:w-24 md:h-24 w-14 h-14 md:mx-5 mx-3 rounded-md'></div>
@@ -67,8 +66,7 @@ const Projects = React.memo(() => {
           <div className='miniBoxBg md:w-24 md:h-24 w-14 h-14 md:mx-5 mx-3 rounded-md'></div>
         </FastMarquee>
 
-        <FastMarquee direction="right" speed={50} continuous className='grid grid-cols-7' >
-          <div className='miniBoxBg md:w-24 md:h-24 w-14 h-14 md:mx-5 mx-3 rounded-md'></div>
+        <FastMarquee direction="right" speed={50} loop={0}  autoFill continuous className='grid grid-cols-7' >
           <div className='miniBoxBg md:w-24 md:h-24 w-14 h-14 md:mx-5 mx-3 rounded-md'></div>
           <div className='miniBoxBg md:w-24 md:h-24 w-14 h-14 md:mx-5 mx-3 rounded-md'></div>
           <div className='miniBoxBg md:w-24 md:h-24 w-14 h-14 md:mx-5 mx-3 rounded-md'></div>

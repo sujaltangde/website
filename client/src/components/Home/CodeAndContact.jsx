@@ -24,7 +24,7 @@ const CodeAndContact = React.memo(() => {
         <h2 className="heading-para-code">Connect with our community</h2>
         <div className="contact-component-code">
           <div className="section-contact">
-            <img src="discord.png" alt="image loading.." />
+            <img style={{width:'32px'}}  src="discord.png" alt="image loading.." />
             <h4 className="head-contact">Discord</h4>
             <h5 className="para-contacts">discord.com</h5>
           </div>
@@ -32,13 +32,13 @@ const CodeAndContact = React.memo(() => {
           <div className="line-contact"></div>
 
           <div className="section-contact">
-            <img src="mail.png" alt="image loading.." />
+            <img style={{width:'32px'}}  src="mail.png" alt="image loading.." />
             <h4 className="head-contact">Email</h4>
             <h5 className="para-contacts">nagpur@cncf.io</h5>
           </div>
           <div className="line-contact"></div>
           <div className="section-contact">
-            <img src="whatapps.png" alt="image loading.." />
+            <img  style={{width:'32px'}} src="whatapps.png" alt="image loading.." />
             <h4 className="head-contact">WhatsApp</h4>
             <h5 className="para-contacts">whatsapp.invite@cncf_nagpur</h5>
           </div>

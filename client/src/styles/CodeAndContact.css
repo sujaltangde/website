@@ -57,7 +57,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 13rem;
+  gap: 5rem;
 }
 
 .section-contact {
@@ -71,10 +71,15 @@
   margin-bottom: 3rem;
 }
 
-.line-contact{
-  height: 5rem;
-  border: 2px solid #ffffff;
+.line-contact {
+  height: 10rem;
+  margin-top: -3rem;
+  border: 1px solid transparent; 
+  border-image: linear-gradient(to right, #ffffff, #000000 80%); 
+  border-image-slice: 1; 
+  margin-left: 6rem;
 }
+
 
 @media (max-width: 1000px) {
   .contact-component-code {
@@ -87,4 +92,9 @@
   .section-contact {
     margin-left: 1rem;
   }
+
+  .line-contact {
+    display: none;
+  }
+  
 }

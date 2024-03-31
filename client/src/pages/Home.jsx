@@ -4,6 +4,7 @@ import Projects from "../components/Home/Projects";
 import About from "../components/Home/About";
 import Benefits from "../components/Home/Benefits";
 import CommunityPartners from "../components/Home/CommunityPartners"
+import Faq from '../components/Home/Faq';
 
 const Home = React.memo(() => {
   return (
@@ -13,8 +14,11 @@ const Home = React.memo(() => {
       <Projects />
       <Benefits />
       <CommunityPartners />
+      <Faq />
     </div>
   );
 });
+
+Home.displayName = 'Home'; 
 
 export default Home;

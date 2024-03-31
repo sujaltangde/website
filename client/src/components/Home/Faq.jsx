@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "../../styles/Faq.css";
-import { FaPlus, FaMinus } from 'react-icons/fa'; 
+import { FaPlus, FaMinus } from 'react-icons/fa';
 
 const Faq = React.memo(() => {
   const faqData = [
@@ -27,7 +27,8 @@ const Faq = React.memo(() => {
             <div className="faq-content">
               <span className="faq-text">{faq.question}</span>
               <button className="toggle-btn" onClick={() => toggleExpanded(index)}>
-                {expandedIndex === index ? <FaMinus /> : <FaPlus />}
+                {expandedIndex === index ? <img style={{width:'30px'}} src="minus.png" alt="" /> :
+                  <img style={{width:'30px'}} src="Plus.png" alt="" />}
               </button>
             </div>
             {expandedIndex === index && (

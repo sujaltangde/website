@@ -80,6 +80,10 @@
   margin-left: 6rem;
 }
 
+.head-contact, .para-contacts{
+  font-family: "Mona Sans";
+}
+
 
 @media (max-width: 1000px) {
   .contact-component-code {

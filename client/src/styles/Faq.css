@@ -4,7 +4,7 @@
 
 .faq-heading-component {
   text-align: center;
-  font-family: "Mona Sans";
+  font-family: 'Mona Sans';
   font-weight: 700;
   font-size: 1.5rem;
   color: #ffffff;
@@ -12,18 +12,14 @@
 }
 
 .faq-heading-component::after {
-  content: "";
+  content: '';
   position: absolute;
   left: 50%;
   bottom: -5px;
   transform: translateX(-50%);
   width: 5%;
   height: 3px;
-  background: linear-gradient(
-    84deg,
-    rgba(161, 248, 208, 1) 8%,
-    rgba(102, 175, 253, 1) 51%
-  );
+  background: linear-gradient(84deg, rgba(161, 248, 208, 1) 8%, rgba(102, 175, 253, 1) 51%);
 }
 
 .inner-component-faq {
@@ -33,17 +29,17 @@
     rgba(50, 45, 45, 0.196) 14%,
     rgba(2, 99, 255, 1) 200%
   );
-  padding: 5rem 1rem;
+  padding: 5rem 1rem; 
   display: flex;
-  flex-wrap: wrap;
-  gap: 1.5rem;
+flex-wrap: wrap;
+gap: 1.5rem;
 }
 
 .faq {
-  border: 1.2px solid #ffffff;
+  border: 1.2px solid #FFFFFF;
   border-radius: 5px;
-  width: 100%;
-  background-color: #010e1d;
+  width: 100%; 
+  background-color: #010E1D;
   margin-bottom: 1rem;
 }
 
@@ -56,7 +52,7 @@
   flex-grow: 1;
   padding: 1rem;
   color: #ffffff;
-  font-family: "mona-sans-regular";
+  font-family: 'mona-sans-regular';
   font-weight: 600;
 }
 
@@ -73,19 +69,28 @@
 }
 
 .answer-text {
-  padding: 1rem;
+  padding: 1rem; 
   color: #ffffff;
   margin-top: -1rem;
-  font-family: "mona-sans-regular";
+  font-family: 'mona-sans-regular';
   font-weight: 400;
 }
 
+
 @media (max-width: 768px) {
   .inner-component-faq {
-    padding: 5rem 15rem;
-    flex-direction: column;
+    
+    flex-direction: column; 
   }
+}
+
+
+@media (min-width: 768px) {
+  .inner-component-faq {
+    padding: 5rem 15rem; 
+  }
+
   .faq {
-    width: 48%;
+    width: 48%; 
   }
 }

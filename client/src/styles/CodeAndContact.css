@@ -100,5 +100,14 @@
   .line-contact {
     display: none;
   }
-  
+
+  .heading-para-code::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    transform: translateX(-50%);
+    width: 60%;
+    height: 3px;
+  }
 }

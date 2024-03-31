@@ -50,4 +50,6 @@ const Navbar = React.memo(() => {
   );
 });
 
+Navbar.displayName = 'Navbar';
+
 export default Navbar;

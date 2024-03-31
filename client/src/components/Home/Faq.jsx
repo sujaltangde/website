@@ -1,15 +1,15 @@
 import React, { useState } from 'react';
 import "../../styles/Faq.css";
-import { FaPlus, FaMinus } from 'react-icons/fa'; // Import plus and minus icons
+import { FaPlus, FaMinus } from 'react-icons/fa'; 
 
 const Faq = React.memo(() => {
   const faqData = [
     { question: "What is Cloud Native?", answer: "" },
-    { question: "Do I need to be a member to participate?", answer: "No, all are welcome to participate in CNCF projects, the CNCF Slack channel, mailing lists, and CNCF events." },
+    { question: "Do I need to be a member to participate?", answer: "No, all are welcome to participate in CNCF projects, the CNCF Slack channel, mailing lists, and CNCF events." },
     { question: "Why should I join CNCF as a member?", answer: "Answer 3" },
     { question: "How can I sponsor CNCF events?", answer: "Answer 3" },
     { question: "What is the relationship between the CNCF and The Linux Foundation?", answer: "Answer 3" },
-    { question: "I have a question, and I’m not sure whom or where to ask.", answer: "Answer 3" },
+    { question: "I have a question, and I'm not sure whom or where to ask.", answer: "Answer 3" },
   ];
 
   const [expandedIndex, setExpandedIndex] = useState(null);

@@ -5,6 +5,7 @@ import About from "../components/Home/About";
 import Benefits from "../components/Home/Benefits";
 import CommunityPartners from "../components/Home/CommunityPartners"
 import Faq from '../components/Home/Faq';
+import CodeAndContact from '../components/Home/CodeAndContact';
 
 const Home = React.memo(() => {
   return (
@@ -15,6 +16,7 @@ const Home = React.memo(() => {
       <Benefits />
       <CommunityPartners />
       <Faq />
+      <CodeAndContact />
     </div>
   );
 });

@@ -219,3 +219,21 @@ span {
   display: flex;
   overflow: hidden;
 }
+
+
+
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #010E1D;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1e31d6;
+  border-radius: 6px;
+  background: linear-gradient(186deg, rgba(162, 250, 207, 1) 8%, rgba(156, 242, 205, 1) 19%, rgba(40, 111, 226, 1) 98%);
+
+}

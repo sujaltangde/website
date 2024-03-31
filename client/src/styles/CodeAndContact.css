@@ -1,0 +1,90 @@
+.codeOfConduct-container {
+  height: auto;
+}
+
+.heading-code {
+  text-align: center;
+  font-family: "Mona Sans";
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffffff;
+  margin-top: 3rem;
+}
+
+.heading-para-code {
+  text-align: center;
+  font-family: "Mona Sans";
+  font-weight: 200;
+  font-size: 1rem;
+  color: #ffffff;
+  position: relative;
+}
+
+.heading-para-code::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  width: 23%;
+  height: 3px;
+  background: linear-gradient(
+    84deg,
+    rgba(161, 248, 208, 1) 8%,
+    rgba(102, 175, 253, 1) 51%
+  );
+}
+
+.paragraph-codeConduct {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Mona Sans";
+  font-weight: 200;
+  font-size: 1rem;
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+  padding: 1rem 5vw;
+}
+
+@media (min-width: 1000px) {
+  .paragraph-codeConduct {
+    padding: 1rem 18rem;
+  }
+}
+
+.contact-component-code {
+  margin-top: 6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 13rem;
+}
+
+.section-contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.6rem;
+  color: #ffffff;
+  margin-left: 6rem;
+  margin-bottom: 3rem;
+}
+
+.line-contact{
+  height: 5rem;
+  border: 2px solid #ffffff;
+}
+
+@media (max-width: 1000px) {
+  .contact-component-code {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+  }
+
+  .section-contact {
+    margin-left: 1rem;
+  }
+}

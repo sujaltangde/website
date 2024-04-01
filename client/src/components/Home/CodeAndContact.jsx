@@ -14,7 +14,7 @@ const CodeAndContact = React.memo(() => {
           applies to KCD Chennai and its Organizers, Volunteers, Chapter
           members, Speakers, Staff and Attendees. Report violations to the
           organizers by contacting
-          organizers-chennai@kubernetescomrnunitydays.org or the CNCF staff at
+          organizers-or the CNCF staff at
           conduct@cncf.io.
         </p>
       </section>

@@ -2,7 +2,10 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className=' footer-bg pt-12'>
+    <>
+    <div className='footer-bg pt-12'>
+    <div className='bg-gradient-to-b from-blue-500 to bg-green-400 w-11/12 h-0.5 ml-11'></div>
+
 
 
       <div className='flex md:flex-row flex-col footer-bg items-center justify-center md:gap-20 gap-8 py-8'>
@@ -29,7 +32,7 @@ const Footer = () => {
 
 
       <div className='flex justify-center md:mt-16 mt-12 flex-col items-center'>
-          <div className='bg-gradient-to-b from-blue-500 to bg-green-400 w-11/12 h-0.5 '></div>
+          {/* <div className='bg-gradient-to-b from-blue-500 to bg-green-400 w-11/12 h-0.5 '></div> */}
 
           <div className='text-white my-8'>
             <p className='font-mona-sans-regular text-center text-xs md:text-sm md:px-0 px-4'>
@@ -42,6 +45,7 @@ const Footer = () => {
 
 
     </div>
+    </>
   )
 }
 

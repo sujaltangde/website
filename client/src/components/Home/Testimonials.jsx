@@ -134,4 +134,6 @@ const Testimonials = React.memo(() => {
     );
 });
 
+Testimonials.displayName = 'Testimonials';
+
 export default Testimonials;

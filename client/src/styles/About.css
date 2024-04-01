@@ -32,6 +32,25 @@
     rgba(102, 175, 253, 1) 51%
   );
 }
+
+.footer-hello:after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -8px;
+  width: 100%;
+  height: 3px;
+  background-color: #ffffff;
+  border-radius: 25px;
+
+  background: linear-gradient(
+    84deg,
+    rgba(161, 248, 208, 1) 8%,
+    rgba(102, 175, 253, 1) 51%
+  );
+}
+
 .content-about {
   border: 2px solid white;
   margin-top: 13rem; /* You can adjust this value as needed */
@@ -102,7 +121,37 @@
   .about-paragraph p {
     font-size: 1rem;
   }
-  .title-about{
+  .title-about {
     margin-top: -50rem;
+  }
+}
+
+.image-hero {
+  width: 100%;
+  height: 30rem;
+  margin-top: -10rem;
+}
+
+@media (max-width: 757px) {
+  .image-hero {
+    width: 70rem;
+    height: 28rem;
+    margin-top: -5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .image-hero {
+    width: 40rem;
+    height: 15rem;
+    margin-top: -4rem;
+    margin-bottom: 5rem;
+  }
+}
+
+@media (min-width: 786px) {
+  .image-hero {
+    width: 70rem;
+    height: 28rem;
   }
 }

@@ -255,3 +255,7 @@ span {
       rgba(161, 248, 208, 1) 8%,
       rgba(102, 175, 253, 1) 51%);
 }
+
+.footer-bg{
+  background-color: #111827;
+}

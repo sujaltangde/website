@@ -13,7 +13,9 @@ const Hero = React.memo(() => {
         <h2 className='md:pl-3 pl-1 text-xl md:text-3xl mt-2 md:mt-5 font-mona-sans-bold gradient-text'>NAGPUR</h2>
       </article>
       <section className='flex flex-col justify-center items-center'>
-        <img className='image-hero' src="heroImagte.png" alt="image not coming" /> {/* check the style in about.css in style  */}
+        <img className='image-hero' src="assets/heroImagte.svg" alt="image not coming" /> 
+        {/* <img className='image-hero' src="heroImagte.png" alt="image not coming" />  */}
+        {/* check the style in about.css in style  */}
         
         <div style={{ marginTop: '-8rem' }} className='border-btn2 rounded-3xl flex items-center'>
           <button className='text-white md:text-lg text-base rounded-3xl btn-bg2 py-0.5 font-mona-sans-semibold px-6 md:px-7'>Join Us</button>

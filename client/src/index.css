@@ -258,3 +258,18 @@ span {
 .footer-bg{
   background-color: #111827;
 }
+
+
+
+.faqContBg{
+  background: linear-gradient(
+    135deg,
+    rgba(50, 45, 45, 0.196) 14%,
+    rgba(2, 99, 255, 1) 200%
+  );
+}
+
+.faqDivBg{
+  background-color: #010E1D;
+}
+

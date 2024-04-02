@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <>
     <div className='footer-bg pt-12'>
-    <div className='bg-gradient-to-b from-blue-500 to bg-green-400 w-11/12 h-0.5 ml-11'></div>
+    <div className='bg-gradient-to-b from-blue-500 to bg-green-400 md:w-11/12  h-0.5 ml-3 mr-3 md:mr-0 md:ml-11'></div>
 
 
 

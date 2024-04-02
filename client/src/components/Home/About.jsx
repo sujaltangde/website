@@ -8,7 +8,10 @@ const About = React.memo(() => {
         <h1 className='title-about'>About Us</h1>
         <section className='content-about'>
           <div className="img-about">
-            <img src="assets/about-image.svg" loading="lazy" alt="about-image" />
+            <img className='cncf-logo-about' src="assets/cncf-logo.svg" loading="lazy" alt="about-image" />
+            <h4 className='head-1'>CLOUD NATIVE</h4>
+            <h3 className='head-2'>COMPUTING FOUNDATION</h3>
+            <img src="assets/WebLogoCncf.svg" loading="lazy" alt="about-image" />
           </div>
           <div className="about-paragraph font-mona-sans-semibold">
             <p>

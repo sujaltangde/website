@@ -1,98 +1,93 @@
-@import url('https://fonts.cdnfonts.com/css/mona-sans');
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
-
+@import url("https://fonts.cdnfonts.com/css/mona-sans");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-
-
-
 @font-face {
-  font-family: 'mona-sans-light';
-  src: url('/assets/fonts/MonaSans-Light.woff2') format('woff2 supports variations'),
-    url('/assets/fonts/MonaSans-Light.woff2') format('woff2-variations');
+  font-family: "mona-sans-light";
+  src: url("/assets/fonts/MonaSans-Light.woff2")
+      format("woff2 supports variations"),
+    url("/assets/fonts/MonaSans-Light.woff2") format("woff2-variations");
 }
 
 @font-face {
-  font-family: 'mona-sans-regular';
-  src: url('/assets/fonts/MonaSans-Regular.woff2') format('woff2 supports variations'),
-    url('/assets/fonts/MonaSans-Regular.woff2') format('woff2-variations');
+  font-family: "mona-sans-regular";
+  src: url("/assets/fonts/MonaSans-Regular.woff2")
+      format("woff2 supports variations"),
+    url("/assets/fonts/MonaSans-Regular.woff2") format("woff2-variations");
 }
 
 @font-face {
-  font-family: 'mona-sans-medium';
-  src: url('/assets/fonts/MonaSans-Medium.woff2') format('woff2 supports variations'),
-  url('/assets/fonts/MonaSans-Medium.woff2') format('woff2-variations');
+  font-family: "mona-sans-medium";
+  src: url("/assets/fonts/MonaSans-Medium.woff2")
+      format("woff2 supports variations"),
+    url("/assets/fonts/MonaSans-Medium.woff2") format("woff2-variations");
 }
 
 @font-face {
-  font-family: 'mona-sans-semibold';
-  src: url('/assets/fonts/MonaSans-SemiBold.woff2') format('woff2 supports variations'),
-  url('/assets/fonts/MonaSans-SemiBold.woff2') format('woff2-variations');
+  font-family: "mona-sans-semibold";
+  src: url("/assets/fonts/MonaSans-SemiBold.woff2")
+      format("woff2 supports variations"),
+    url("/assets/fonts/MonaSans-SemiBold.woff2") format("woff2-variations");
 }
 
 @font-face {
-  font-family: 'mona-sans-bold';
-  src: url('/assets/fonts/MonaSans-Bold.woff2') format('woff2 supports variations'),
-  url('/assets/fonts/MonaSans-Bold.woff2') format('woff2-variations');
+  font-family: "mona-sans-bold";
+  src: url("/assets/fonts/MonaSans-Bold.woff2")
+      format("woff2 supports variations"),
+    url("/assets/fonts/MonaSans-Bold.woff2") format("woff2-variations");
 }
 
 @font-face {
-  font-family: 'mona-sans-extrabold';
-  src: url('/assets/fonts/MonaSans-ExtraBold.woff2') format('woff2 supports variations'),
-  url('/assets/fonts/MonaSans-ExtraBold.woff2') format('woff2-variations');
+  font-family: "mona-sans-extrabold";
+  src: url("/assets/fonts/MonaSans-ExtraBold.woff2")
+      format("woff2 supports variations"),
+    url("/assets/fonts/MonaSans-ExtraBold.woff2") format("woff2-variations");
 }
 
 @font-face {
-  font-family: 'Mona Sans';
-  src: url('/assets/fonts/MonaSans-Regular.woff2') format('woff2 supports variations'),
-  url('/assets/fonts/MonaSans-Regular.woff2') format('woff2-variations');
+  font-family: "Mona Sans";
+  src: url("/assets/fonts/MonaSans-Regular.woff2")
+      format("woff2 supports variations"),
+    url("/assets/fonts/MonaSans-Regular.woff2") format("woff2-variations");
 }
 
-
-
-
- .font-mona-sans-light {
-  font-family: 'mona-sans-light';
+.font-mona-sans-light {
+  font-family: "mona-sans-light";
 }
-
 
 .font-mona-sans-regular {
-  font-family: 'mona-sans-regular';
+  font-family: "mona-sans-regular";
 }
 
 .font-mona-sans-medium {
-  font-family: 'mona-sans-medium';
+  font-family: "mona-sans-medium";
 }
 
 .font-mona-sans-semibold {
-  font-family: 'mona-sans-semibold';
+  font-family: "mona-sans-semibold";
 }
 
 .font-mona-sans-bold {
-  font-family: 'mona-sans-bold';
+  font-family: "mona-sans-bold";
 }
 
 .font-mona-sans-ExtraBold {
-  font-family: 'mona-sans-extrabold';
-} 
-
-
-
-body {
-
-  background-color: #010E1D;
+  font-family: "mona-sans-extrabold";
 }
 
-
-
-
+body {
+  background-color: #010e1d;
+}
 
 .gradient-text {
-  background: linear-gradient(84deg, rgba(161, 248, 208, 1) 8%, rgba(102, 175, 253, 1) 51%);
+  background: linear-gradient(
+    84deg,
+    rgba(161, 248, 208, 1) 8%,
+    rgba(102, 175, 253, 1) 51%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -114,19 +109,20 @@ span {
   text-align: center;
 }
 
-
-
 .navBg {
   background: #131e2b;
   background: linear-gradient(96deg, rgb(29, 40, 56) 0%, rgb(17, 29, 44) 33%);
 }
 
-
 .navLinkHover {
-  color: linear-gradient(86deg, rgba(91, 232, 255, 1) 0%, rgba(1, 99, 255, 1) 47%);
+  color: linear-gradient(
+    86deg,
+    rgba(91, 232, 255, 1) 0%,
+    rgba(1, 99, 255, 1) 47%
+  );
 }
 
-.navLink {  
+.navLink {
   font-family: "Inter", sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -134,83 +130,90 @@ span {
 }
 
 .navLink:hover {
-  background: linear-gradient(86deg, rgba(91, 232, 255, 1) 0%, rgb(37, 121, 255) 47%);
+  background: linear-gradient(
+    86deg,
+    rgba(91, 232, 255, 1) 0%,
+    rgb(37, 121, 255) 47%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
-
 .btn-bg {
-  background-color: #2E4751;
-
+  background-color: #2e4751;
 }
 
 .border-btn {
-
   position: relative;
-  background: linear-gradient(186deg, rgba(162, 250, 207, 1) 8%, rgba(156, 242, 205, 1) 19%, rgba(40, 111, 226, 1) 98%);
+  background: linear-gradient(
+    186deg,
+    rgba(162, 250, 207, 1) 8%,
+    rgba(156, 242, 205, 1) 19%,
+    rgba(40, 111, 226, 1) 98%
+  );
   /* padding: 5px 2px 6px 2px; */
-
 }
 
 .border-btn2 {
-
   position: relative;
-  background: linear-gradient(186deg, rgba(162, 250, 207, 1) 8%, rgba(156, 242, 205, 1) 19%, rgba(40, 111, 226, 1) 98%);
+  background: linear-gradient(
+    186deg,
+    rgba(162, 250, 207, 1) 8%,
+    rgba(156, 242, 205, 1) 19%,
+    rgba(40, 111, 226, 1) 98%
+  );
   padding: 2px;
-
 }
 
 .btn-bg2 {
-  background-color: #011F4A;
+  background-color: #011f4a;
   /* border: 2px solid; */
   /* border-image: linear-gradient(35deg, rgba(162, 250, 207, 1) 0%, rgba(1, 59, 153, 1) 56%);
   border-image-slice: 1;
   border-radius: 20px; */
 }
 
-
 .textSpan {
-  color: #A2FACF;
+  color: #a2facf;
 }
 
 .miniBoxBg {
-  background-color: #1C2734;
+  background-color: #1c2734;
 }
-
 
 .headingT {
   text-align: center;
-  font-family: 'Mona Sans';
+  font-family: "Mona Sans";
   font-weight: 700;
   font-size: 1.5rem;
   color: #ffffff;
   position: relative;
-
 }
 
 .headingT::after {
-  content: '';
+  content: "";
   position: absolute;
   left: 50%;
   bottom: -5px;
   transform: translateX(-50%);
   width: 80%;
   height: 3px;
-  background: linear-gradient(84deg,
-      rgba(161, 248, 208, 1) 8%,
-      rgba(102, 175, 253, 1) 51%);
+  background: linear-gradient(
+    84deg,
+    rgba(161, 248, 208, 1) 8%,
+    rgba(102, 175, 253, 1) 51%
+  );
 }
-
 
 .parternersContent {
   border: 2px solid white;
 
-
   height: 30rem;
-  background: linear-gradient(135deg,
-      rgba(255, 255, 255, 0.1) 0%,
-      rgba(2, 19, 24, 0.587) 200%);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(2, 19, 24, 0.587) 200%
+  );
   /* box-shadow: 0 -8px 32px 0 rgba(2, 2, 2, 0.18); */
   border-radius: 25px;
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -219,49 +222,49 @@ span {
   overflow: hidden;
 }
 
-
-
-
 ::-webkit-scrollbar {
   width: 12px;
 }
 
 ::-webkit-scrollbar-track {
-  background-color: #010E1D;
+  background-color: #010e1d;
 }
 
 ::-webkit-scrollbar-thumb {
   background-color: #1e31d6;
   border-radius: 6px;
-  background: linear-gradient(186deg, rgba(162, 250, 207, 1) 8%, rgba(156, 242, 205, 1) 19%, rgba(40, 111, 226, 1) 98%);
-
+  background: linear-gradient(
+    186deg,
+    rgba(162, 250, 207, 1) 8%,
+    rgba(156, 242, 205, 1) 19%,
+    rgba(40, 111, 226, 1) 98%
+  );
 }
 
-
-
-
-.tBox{
-  background: linear-gradient(135deg,
-  rgba(255, 255, 255, 0.1) 0%,
-  rgba(2, 19, 24, 0.587) 200%);
+.tBox {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.1) 0%,
+    rgba(2, 19, 24, 0.587) 200%
+  );
   border-radius: 42px;
 }
 
-.borderGrad{
+.borderGrad {
   height: 2px;
   border-radius: 40%;
-  background: linear-gradient(84deg,
-      rgba(161, 248, 208, 1) 8%,
-      rgba(102, 175, 253, 1) 51%);
+  background: linear-gradient(
+    84deg,
+    rgba(161, 248, 208, 1) 8%,
+    rgba(102, 175, 253, 1) 51%
+  );
 }
 
-.footer-bg{
+.footer-bg {
   background-color: #111827;
 }
 
-
-
-.faqContBg{
+.faqContBg {
   background: linear-gradient(
     135deg,
     rgba(50, 45, 45, 0.196) 14%,
@@ -269,7 +272,6 @@ span {
   );
 }
 
-.faqDivBg{
-  background-color: #010E1D;
+.faqDivBg {
+  background-color: #010e1d;
 }
-

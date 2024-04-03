@@ -39,7 +39,7 @@ const Benefits = React.memo(() => {
                             } ${hoveredIndex === slide.key
                                 ? "transform scale-110 shadow-lg perksBeniBgHover"
                                 : "perksBeniBg"
-                            } w-6/12 h-3/4 m-2  items-center justify-center flex flex-col `}
+                            } md:w-6/12 w-10/12 h-3/4  m-2  items-center justify-center flex flex-col `}
                         onMouseEnter={() => handleHover(slide.key)}
                         onMouseLeave={() => setHoveredIndex(null)}
                     >
@@ -48,7 +48,7 @@ const Benefits = React.memo(() => {
                             
                         >
                           
-                           <div className=" w-full grayWhiteBorder2 p-3 text-white h-5/6">
+                           <div className=" w-full grayWhiteBorder2 p-3 text-white h-5/6 ">
 
 
                                {/* Content Here */}

@@ -37,13 +37,13 @@ const Navbar = React.memo(() => {
 
       <div className={`md:hidden ${toggle ? "flex" : "hidden"}`}>
         <ul className='text-white font-semibold fixed z-10 mt-12 pb-4 pt-6 flex flex-col w-full navBg rounded-b-xl text-left px-6 items-start gap-4 text-base'>
-          <li><Link to="/" className='navLink'>Home</Link></li>
-          <li><Link to="/about" className='navLink'>About Us</Link></li>
-          <li><Link to="/roadmaps" className='navLink'>Roadmaps</Link></li>
-          <li><Link to="/blogs" className='navLink'>Blogs</Link></li>
-          <li><Link to="/events" className='navLink'>Events</Link></li>
-          <li><Link to="/team" className='navLink'>Team</Link></li>
-          <li><Link to="/faqs" className='navLink'>FAQs</Link></li>
+          <li><Link onClick={() => setToggle(!toggle)} to="/" className='navLink'>Home</Link></li>
+          <li><Link onClick={() => setToggle(!toggle)} to="/about" className='navLink'>About Us</Link></li>
+          <li><Link onClick={() => setToggle(!toggle)} to="/roadmaps" className='navLink'>Roadmaps</Link></li>
+          <li><Link onClick={() => setToggle(!toggle)} to="/blogs" className='navLink'>Blogs</Link></li>
+          <li><Link onClick={() => setToggle(!toggle)} to="/events" className='navLink'>Events</Link></li>
+          <li><Link onClick={() => setToggle(!toggle)} to="/team" className='navLink'>Team</Link></li>
+          <li><Link onClick={() => setToggle(!toggle)} to="/faqs" className='navLink'>FAQs</Link></li>
         </ul>
       </div>
     </>

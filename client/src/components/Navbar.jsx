@@ -4,6 +4,7 @@ import { HiMenu, HiX } from "react-icons/hi";
 
 const Navbar = React.memo(() => {
   const [toggle, setToggle] = useState(false);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   return (
     <>
@@ -20,7 +21,17 @@ const Navbar = React.memo(() => {
             <li><Link to="/about" className='navLink'>About Us</Link></li>
             <li><Link to="/roadmaps" className='navLink'>Roadmaps</Link></li>
             <li><Link to="/blogs" className='navLink'>Blogs</Link></li>
-            <li><Link to="/events" className='navLink'>Events</Link></li>
+            <li className="relative">
+              <span onClick={() => setShowDropdown(!showDropdown)} className='navLink cursor-pointer'>Events</span>
+              {showDropdown && (
+                <div style={{backgroundColor:'#131e2b'}} className="dropdown-menu absolute top-full left-0 bg-navBg rounded-b-xl text-left overflow-hidden shadow-md">
+                  <ul style={{width:'10rem'}} className="dropdown-content">
+                    <li><Link to="/events/upcoming" onClick={() => setShowDropdown(!showDropdown)} className='navLink block px-4 py-2 hover:bg-gray-600'>Events</Link></li>
+                    <li><Link to="/events/past" onClick={() => setShowDropdown(!showDropdown)} className='navLink block px-4 py-2 hover:bg-gray-600'>Events Reports</Link></li>
+                  </ul>
+                </div>
+              )}
+            </li>
             <li><Link to="/team" className='navLink'>Team</Link></li>
             <li><Link to="/faqs" className='navLink'>FAQs</Link></li>
           </ul>
@@ -41,7 +52,17 @@ const Navbar = React.memo(() => {
           <li><Link onClick={() => setToggle(!toggle)} to="/about" className='navLink'>About Us</Link></li>
           <li><Link onClick={() => setToggle(!toggle)} to="/roadmaps" className='navLink'>Roadmaps</Link></li>
           <li><Link onClick={() => setToggle(!toggle)} to="/blogs" className='navLink'>Blogs</Link></li>
-          <li><Link onClick={() => setToggle(!toggle)} to="/events" className='navLink'>Events</Link></li>
+          <li className="relative">
+              <span onClick={() => setShowDropdown(!showDropdown)} className='navLink cursor-pointer'>Events</span>
+              {showDropdown && (
+                <div style={{backgroundColor:'#131e2b'}} className="dropdown-menu absolute top-full left-0 bg-navBg rounded-b-xl text-left overflow-hidden shadow-md">
+                  <ul style={{width:'10rem'}} className="dropdown-content">
+                    <li><Link to="/events/upcoming" onClick={() => setShowDropdown(!showDropdown)} className='navLink block px-4 py-2 hover:bg-gray-600'>Events</Link></li>
+                    <li><Link to="/events/past" onClick={() => setShowDropdown(!showDropdown)} className='navLink block px-4 py-2 hover:bg-gray-600'>Events Reports</Link></li>
+                  </ul>
+                </div>
+              )}
+            </li>
           <li><Link onClick={() => setToggle(!toggle)} to="/team" className='navLink'>Team</Link></li>
           <li><Link onClick={() => setToggle(!toggle)} to="/faqs" className='navLink'>FAQs</Link></li>
         </ul>

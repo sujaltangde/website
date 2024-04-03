@@ -21,7 +21,7 @@ const CodeAndContact = React.memo(() => {
 
       <section>
         <h1 className="heading-code">Contact Us</h1>
-        <h2 className="heading-para-code">Connect with our community</h2>
+        <h2 className="heading-para-codes">Connect with our community</h2>
         <div className="contact-component-code">
           <div className="section-contact">
             <img style={{width:'32px'}}  src="/assets/discord.svg" alt="image loading.." />

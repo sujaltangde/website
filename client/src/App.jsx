@@ -15,6 +15,8 @@ function App() {
       <Routes>
         <Route path="/cs" element={<ComingSoon />} />
         <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/events" element={<Event />} />
       </Routes>
 
       <Footer/>

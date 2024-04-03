@@ -2,18 +2,7 @@ import React from "react";
 import ".././styles/Event.css";
 
 const events = [
-    {
-        title: "Introduction to DevOps",
-        speaker: "Vedant Kakde",
-        date: "February 12, 2024 • 18:00 IST",
-        image: "/assets/event1.svg",
-    },
-    {
-        title: "Introduction to DevOps",
-        speaker: "Vedant Kakde",
-        date: "February 12, 2024 • 18:00 IST",
-        image: "/assets/event1.svg",
-    },
+    
     {
         title: "Introduction to DevOps",
         speaker: "Vedant Kakde",

@@ -49,6 +49,7 @@
         rgba(255, 255, 255, 0.1) 100%
     );
     border-radius: 10px;
+    width: 100rem;
   }
   
   .event-container-all img {
@@ -124,7 +125,6 @@
   
   @media only screen and (max-width: 800px) {
     .event-container-all {
-      margin: 1rem 1rem 0.1rem 1rem;
       gap: 1rem;
       flex-direction: column;
     }
@@ -135,11 +135,14 @@
     }
   
     .event-component-text {
-      padding: 0.5rem;
+      padding: 1.2rem;
     }
 
     .event-head {
         font-size: 1.3rem;
+      }
+      .combine-btn-speak img{
+        width: 4.5rem;
       }
   }
   

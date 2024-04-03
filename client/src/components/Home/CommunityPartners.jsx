@@ -3,7 +3,7 @@ import React from "react";
 const CommunityPartners = React.memo(() => {
   return (
     <main>
-      <div className="flex justify-center items-center flex-col my-14">
+      <div className="flex justify-center items-center flex-col mb-14 ">
         <div>
           <p className="headingT">Community Partners</p>
         </div>

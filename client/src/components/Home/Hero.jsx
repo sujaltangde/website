@@ -3,7 +3,7 @@ import "../../styles/About.css"
 
 const Hero = React.memo(() => {
   return (
-    <main className='flex flex-col gap-12 md:gap-24 md:px-24 px-4 pt-28 pb-40'>
+    <main className='flex flex-col gap-12 md:gap-24 md:px-24 px-4 pt-14 pb-40'>
       <article className='flex flex-col items-start'>
         <h1 className='flex font-extrabold items-center gap-4 md:gap-8 font-mona-sans-bold 
         text-4xl md:text-6xl lg:text-8xl xl:text-9xl'>

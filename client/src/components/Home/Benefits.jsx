@@ -24,32 +24,41 @@ const Benefits = React.memo(() => {
     ];
 
     return (
-        <main>
-            <div className="benefit-container">
+        <main className=" md:px-24  mb-12">
+            <div className="mb-12">
                 <h1 className="heading-benefit">Perks & Benefits</h1>
             </div>
 
-            <div className="flex justify-center items-center h-screen">
+            <div className="flex md:flex-row md:gap-0  flex-col md:items-start items-center md:justify-center pt-4 mt-12 h-[70vh]">
                 {slides.map((slide) => (
                     <div
                         key={slide.key}
-                        className={`transition-all duration-300 relative ${hoveredIndex !== null && hoveredIndex !== slide.key
-                                ? "opacity-50 transform scale-90"
+                        className={` transition-all duration-300 relative ${hoveredIndex !== null && hoveredIndex !== slide.key
+                                ? " transform scale-90"
                                 : ""
                             } ${hoveredIndex === slide.key
-                                ? "transform scale-110 shadow-lg bg-blue-200"
-                                : "bg-blue-400"
-                            } w-32 h-32 m-2 flex items-center justify-center`}
+                                ? "transform scale-110 shadow-lg perksBeniBgHover"
+                                : "perksBeniBg"
+                            } md:w-6/12 w-10/12 h-3/4  m-2  items-center justify-center flex flex-col `}
                         onMouseEnter={() => handleHover(slide.key)}
                         onMouseLeave={() => setHoveredIndex(null)}
                     >
                         <div
-                            className="absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
-                            style={{ zIndex: 1 }}
+                            className=" flex flex-col w-full  mb-12 items-end h-full absolute  left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2"
+                            
                         >
-                            {slide.content}
+                          
+                           <div className=" w-full grayWhiteBorder2 p-3 text-white h-5/6 ">
+
+
+                               {/* Content Here */}
+
+                           </div>
+                           <div className="bg-gray-900 grayWhiteBorder  w-full align-bottom  text-white text-center md:pt-3 pt-2 font-mona-sans-semibold md:h-1/6 h-2/6">Benefits</div>
                         </div>
+                        
                     </div>
+                    
                 ))}
             </div>
         </main>

@@ -190,3 +190,46 @@
     }
   }
   
+
+
+
+
+
+
+  /* css event report */
+
+
+  .event-bn{
+  font-family: "Mona-Sans-Regular";
+  color: #ffffff;
+  margin-top: 4rem;
+  padding: 0.2rem 1.5rem;
+  border-radius: 18px;
+  margin-left: 80%;
+  }
+
+
+  @media only screen and (max-width: 800px) {
+    .event-bn{
+      margin-left: 70%;
+    }
+  }
+
+  @media only screen and (max-width: 635px) {
+    .event-bn{
+      margin-left: 60%;
+    }
+  }
+
+  @media only screen and (max-width: 517px) {
+    .event-bn{
+      margin-left: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .event-bn{
+      margin-left: 30%;
+      font-size: 0.6rem;
+    }
+  }

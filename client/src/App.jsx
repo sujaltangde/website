@@ -6,6 +6,7 @@ import ComingSoon from "./components/ComingSoon";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import About from "./pages/About";
+import EventReport from "./pages/EventReport";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/events/upcoming" element={<Event />} />
+        <Route path="/events/report" element={<EventReport />} />
       </Routes>
 
       <Footer/>

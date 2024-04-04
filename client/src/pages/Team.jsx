@@ -62,8 +62,8 @@ const Team = () => {
                        
 
                         <div key={i} className='w-60 mx-8 '>
-                            <div className=' bg-white rounded-2xl h-60 relative'>
-                                <img src={e.image} alt={e.name} className='w-full rounded-2xl  h-full object-cover' />
+                            <div className='  rounded-2xl h-60  relative'>
+                                <img src={e.image} alt={e.name} className='w-full  rounded-2xl  h-full object-cover' />
                                 <div className='absolute inset-0 teamCardHover opacity-0 hover:opacity-100  rounded-2xl transition-opacity duration-300 flex justify-center items-center'>
                                     <div className='flex items-center gap-4'>
                                         <Link><FaXTwitter size={40} /></Link>

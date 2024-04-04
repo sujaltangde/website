@@ -10,7 +10,7 @@ const Hero = React.memo(() => {
           <span className='text-white'>Cloud</span>
           <span className='gradient-text'>Native</span>
         </h1>
-        <h2 className='md:pl-3 pl-1 text-xl md:text-3xl mt-2 md:mt-5 font-mona-sans-bold gradient-text'>NAGPUR</h2>
+        <h2 className='md:pl-3 pl-1 text-xl md:text-3xl mt-2 md:mt-5 font-mona-sans-ExtraBold gradient-text'>NAGPUR</h2>
       </article>
       <section className='flex flex-col justify-center items-center'>
         <img className='image-hero' src="assets/heroImagte.svg" alt="image not coming" /> 

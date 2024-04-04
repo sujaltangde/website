@@ -312,3 +312,14 @@ span {
   border-bottom-right-radius: 0;
   border-bottom: none;
 }
+
+
+
+
+
+.teamCardHover{
+  background: rgb(10, 41, 74);
+  background: linear-gradient(101deg, rgba(10, 41, 74, 1) 58%, rgba(0, 16, 28, 1) 100%);
+  
+ 
+}

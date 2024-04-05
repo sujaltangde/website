@@ -36,7 +36,7 @@
 .content-about {
   border: 2px solid white;
   margin-top: 13rem;
-  width: 70rem;
+  width: 80rem;
   max-width: 100%;
   height: 30rem;
   background: linear-gradient(
@@ -50,11 +50,7 @@
   backdrop-filter: blur(10px);
   display: flex;
   overflow: hidden;
-  transition: box-shadow 0.3s ease, cursor 0.3s ease;
 }
-
-
-
 
 .img-about {
   flex: 1;
@@ -89,7 +85,7 @@
   color: #ffffff;
 }
 
-.head-1{
+.head-1 {
   margin-top: -5rem;
   font-family: "mona-sans-regular";
   font-weight: 700;
@@ -98,7 +94,7 @@
   font-size: 1.4rem;
 }
 
-.head-2{
+.head-2 {
   font-size: 1rem;
   color: #ffffff;
   font-family: "mona-sans-regular";
@@ -117,7 +113,7 @@
     flex-direction: column;
   }
 
-  .head-1{
+  .head-1 {
     margin-top: 1rem;
     font-family: "mona-sans-regular";
     font-weight: 700;
@@ -125,8 +121,8 @@
     letter-spacing: 0.2rem;
     font-size: 1.4rem;
   }
-  
-  .head-2{
+
+  .head-2 {
     font-size: 1rem;
     color: #ffffff;
     font-family: "mona-sans-regular";
@@ -147,7 +143,7 @@
     margin-top: -40rem;
   }
 
-  .head-1{
+  .head-1 {
     margin-top: 1rem;
     font-family: "mona-sans-regular";
     font-weight: 700;
@@ -155,8 +151,8 @@
     letter-spacing: 0.2rem;
     font-size: 1rem;
   }
-  
-  .head-2{
+
+  .head-2 {
     font-size: 0.9rem;
     color: #ffffff;
     font-family: "mona-sans-regular";
@@ -194,4 +190,3 @@
     height: 28rem;
   }
 }
-

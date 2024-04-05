@@ -1,28 +1,31 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../utils/motion";
 import "../../styles/About.css";
 
 const defaultOptions = {
-	reverse:        true,  
-	max:            25,     
-	perspective:    10000,   
-	scale:          1,   
-	speed:          10000,   
-	transition:     true,  
-	axis:           null,   
-	reset:          true,    
-	easing:         "cubic-bezier(.03,.98,.52,.99)",   
-}
-
+  reverse: true,
+  max: 25,
+  perspective: 10000,
+  scale: 1,
+  speed: 10000,
+  transition: true,
+  axis: null,
+  reset: true,
+  easing: "cubic-bezier(.03,.98,.52,.99)",
+};
 
 const About = React.memo(() => {
+
   return (
     <Fragment>
       <main className="about-container">
         <h1 className="title-about">About Us</h1>
-        <Tilt options={defaultOptions} className="xs:w-[220px] flex align-center justify-center">
+        <Tilt
+          options={defaultOptions}
+          className="xs:w-[220px] flex align-center justify-center"
+        >
           <section className="content-about">
             <motion.div
               variants={fadeIn("right", "spring", 0.5 * 1, 0.75)}

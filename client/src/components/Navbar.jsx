@@ -57,8 +57,10 @@ const Navbar = React.memo(() => {
               {showDropdown && (
                 <div style={{backgroundColor:'#131e2b'}} className="dropdown-menu absolute top-full left-0 bg-navBg rounded-b-xl text-left overflow-hidden shadow-md">
                   <ul style={{width:'10rem'}} className="dropdown-content">
-                    <li><Link to="/events/upcoming" onClick={() => setShowDropdown(!showDropdown)} className='navLink block px-4 py-2 hover:bg-gray-600'>Events</Link></li>
-                    <li><Link to="/events/report" onClick={() => setShowDropdown(!showDropdown)} className='navLink block px-4 py-2 hover:bg-gray-600'>Events Reports</Link></li>
+                    <li><Link 
+                    to="/events/upcoming" 
+                    onClick={() => {setShowDropdown(!showDropdown) ; setToggle(!toggle)}} className='navLink block px-4 py-2 hover:bg-gray-600'>Events</Link></li>
+                    <li><Link to="/events/report" onClick={() => {setShowDropdown(!showDropdown) ; setToggle(!toggle)}} className='navLink block px-4 py-2 hover:bg-gray-600'>Events Reports</Link></li>
                   </ul>
                 </div>
               )}

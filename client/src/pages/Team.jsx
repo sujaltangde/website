@@ -81,15 +81,19 @@ const Team = () => {
                             <div className="absolute inset-0 teamCardHover opacity-0 hover:opacity-100  rounded-2xl transition-opacity duration-300 flex justify-center items-center">
                                 <div className="flex items-center gap-4">
                                     <Link target="_blank" rel="noopener noreferrer" to={e.x}>
-                                        <FaXTwitter size={40} />
+                                       
+                                        <img src="assets/X.svg" className="h-10 " alt="X" />
+                                        
                                     </Link>
                                     <Link
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         to={e.linkedin}
                                     >
-                                        <CiLinkedin size={48} />
-                                    </Link>
+                                       
+                                        <img src="assets/LinkedIn.svg" className="h-12 " alt="LinkedIn" />
+
+                                     </Link>
                                 </div>
                             </div>
                         </div>
@@ -102,6 +106,7 @@ const Team = () => {
                     </div>
                 ))}
             </div>
+            
         </div>
     );
 };

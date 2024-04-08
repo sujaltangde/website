@@ -9,12 +9,12 @@ const Navbar = React.memo(() => {
   return (
     <>
       <nav className='navBg z-10 shadow-sm fixed w-full flex justify-around md:justify-evenly rounded-b-xl py-2 md:py-4 items-center'>
-        <div>
+        <Link to="/">
           <img src="/assets/navLogo.svg"
             className='w-36 md:w-40'
             alt="navLogo"
             loading="lazy" />
-        </div>
+        </Link>
         <div>
           <ul className='text-white font-semibold hidden md:flex justify-center items-center gap-12 text-base'>
             <li><Link to="/" className='navLink'>Home</Link></li>
